@@ -1,0 +1,22 @@
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    /* Quando os filhos ultrapassarem o width, descem pra outra linha */
+    flex-wrap: wrap;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
