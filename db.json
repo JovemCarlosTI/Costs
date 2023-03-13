@@ -7,8 +7,15 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 100,
+      "services": [
+        {
+          "name": "Teste de erro",
+          "cost": "100",
+          "description": "Lorem Impsum",
+          "id": "484cef34-9229-4076-87b6-c5b2af7eb3e8"
+        }
+      ],
       "id": 1
     }
   ],
